@@ -17,6 +17,15 @@ binary_tree_t *binary_tree_node(binary_tree_t *parent, int value);
 /* Task 1 */
 binary_tree_t *binary_tree_insert_left(binary_tree_t *parent, int value);
 
+/* Task 2 */
+binary_tree_t *binary_tree_insert_right(binary_tree_t *parent, int value);
+
+/* Task 3 */
+void binary_tree_delete(binary_tree_t *tree);
+
+/* Task 4 */
+int binary_tree_is_leaf(const binary_tree_t *node);
+
 void binary_tree_print(const binary_tree_t *tree);
 
 #endif /* BINARY_TREES_H */
